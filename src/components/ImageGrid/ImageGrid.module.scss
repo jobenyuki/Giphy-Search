@@ -1,0 +1,41 @@
+.imageGridContainer {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 15px;
+
+  @media (min-width: 768px) {
+    padding: 30px 50px;
+  }
+}
+
+.imageGridPagination {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 20px;
+
+  & input {
+    width: 80px;
+  }
+}
+
+.imageGridElement {
+  width: 33.33%;
+  height: 150px;
+
+  @media (min-width: 576px) {
+    height: 200px;
+  }
+
+  @media (min-width: 768px) {
+    height: 250px;
+  }
+
+  @media (min-width: 900px) {
+    height: 300px;
+  }
+}

@@ -1,13 +1,8 @@
 import React from 'react';
+import { Landing } from './components/Landing';
 
 const App: React.FC = () => {
-  return (
-    <>
-      <div>
-        <h1>Giphy Searcher</h1>
-      </div>
-    </>
-  );
+  return <Landing />;
 };
 
 export default App;

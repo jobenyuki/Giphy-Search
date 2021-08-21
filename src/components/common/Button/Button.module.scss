@@ -1,0 +1,14 @@
+.buttonContainer {
+  position: relative;
+  height: 35px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: rgb(100, 100, 255);
+  cursor: pointer;
+
+  &.disabled {
+    background: rgba(100, 100, 255, 0.5);
+  }
+}

@@ -1,0 +1,14 @@
+.textInputContainer {
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.textInput {
+  width: 300px;
+  max-width: 50vw;
+  height: 35px;
+}
